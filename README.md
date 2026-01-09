@@ -93,7 +93,7 @@ cmake --build ./build -j$(nproc)
 mv ./build/predictor ./build/predictor_extralong
 ```
 
-2. 运行脚本 run_sensitivity.sh
+2. 运行脚本 run_sensitivity.sh（在不同上下文长度下运行LLBP）
 
 ```bash
 ./run_sensitivity.sh
